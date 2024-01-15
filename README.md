@@ -10,10 +10,12 @@ system. For example, if you're using Windows, `.\availabilitytest-win.exe` will 
 you're using a Mac with a newer M-series processor, `./availabilitytest-arm-mac` is what you want to use. 
 Also provided are binaries for older Macs with Intel processors and for Linux systems with Intel/AMD 
 processors.
-5. You'll be prompted to enter the path of a yaml file that contains HTTP request data. If you don't have
-one handy and want to test the program out, type `testdata.yml` to use the test data included in the repo.
-6. The availability percentages of the appropriate domains will be provided and will update every 15 seconds.
-7. Once you're done, press `CTRL+C` to exit.
+5. You'll be prompted to enter the path of a yaml file that contains HTTP request data. Type in the full path
+including the filename and its extension. If the file is in the same directory as the binary, only the file's
+name is needed. If you don't have a file handy and want to test the program out, type `testdata.yml` to use
+the test data included in the repo.
+7. The availability percentages of the appropriate domains will be provided and will update every 15 seconds.
+8. Once you're done, press `CTRL+C` to exit.
 
 ### What it does
 
