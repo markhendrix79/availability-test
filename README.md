@@ -2,12 +2,18 @@
 
 ### How to use it
 
-I've compiled this application for Windows, MacOS and Linux. To use it, all you need to do is clone down 
-this repo and run the applicable executable from the command line on your system. See examples below.
-
-```
-Ex. 
-```
+1. Insure [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) is installed on your system
+2. Clone this repo. From the command line, `git clone https://github.com/markhendrix79/availability-test.git` 
+3. Change directories into the newly downloaded repo. `cd availability-test`
+4. Compiled binary files are provided for the most common use cases. Run the applicable binary for your 
+system. For example, if you're using Windows, `.\availabilitytest-win.exe` will launch the program. If 
+you're using a Mac with a newer M-series processor, `./availabilitytest-arm-mac` is what you want to use. 
+Also provided are binaries for older Macs with Intel processors and for Linux systems with Intel/AMD 
+processors.
+5. You'll be prompted to enter the path of a yaml file that contains HTTP request data. If you don't have
+one handy and want to test the program out, type `testdata.yml` to use the test data included in the repo.
+6. The availability percentages of the appropriate domains will be provided and will update every 15 seconds.
+7. Once you're done, press `CTRL+C` to exit.
 
 ### What it does
 
